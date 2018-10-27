@@ -1,3 +1,4 @@
+#Made by Daniel Yan & Kevin H
 import time
 import telegram
 from telegram.ext import *
@@ -52,7 +53,7 @@ def buttons(bot, update):
 
 def main():
     # setup
-    updater = Updater(config.token)   # don't hax0r me
+    updater = Updater(config.token)   
     dispatcher = updater.dispatcher
 
     # setup event handlers
